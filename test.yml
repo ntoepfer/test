@@ -1,0 +1,8 @@
+---
+  - hosts: localhost
+    connection: local
+
+    roles:
+      - role: base
+      - role: active-directory
+      - role: mongodb
